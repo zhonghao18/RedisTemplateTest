@@ -39,6 +39,8 @@ public class Test {
         redisTemplate.opsForHash().putAll(key, properties);
         System.out.println(hash.get("id:10001","name"));
 
+        //添加测试
+
         //添加 一个 list 列表
      /*   ListOperations<String, Object> list = redisTemplate.opsForList();
         list.rightPush("lpList", "lp");
